@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/tissot/full_tissot.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aos/config/common_full_phone.mk)
+$(call inherit-product, vendor/aos/config/common.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
